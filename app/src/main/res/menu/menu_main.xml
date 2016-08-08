@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+      xmlns:app="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        android:icon="@drawable/search"
+        appcompat:actionViewClass="android.support.v7.widget.SearchView"
+        appcompat:showAsAction="always"/>
+
+    <item
+        android:id="@+id/upload"
+        android:title="Upload to Drive"
+        android:icon="@drawable/upload"
+        appcompat:showAsAction="always"
+    />
+
+</menu>
